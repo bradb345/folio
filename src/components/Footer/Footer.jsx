@@ -1,15 +1,14 @@
-import React, { useContext } from 'react';
-import { Container } from 'react-bootstrap';
-import { Link } from 'react-scroll';
-import PortfolioContext from '../../context/context';
-import GithubButtons from '../GithubButtons/GithubButtons';
+import React, { useContext } from 'react'
+import { Container } from 'react-bootstrap'
+import { Link } from 'react-scroll'
+import PortfolioContext from '../../context/context'
 
-import { githubButtons } from '../../mock/data';
+
 
 const Footer = () => {
-  const { footer } = useContext(PortfolioContext);
-  const { networks } = footer;
-  const { isEnabled } = githubButtons;
+  const { footer } = useContext(PortfolioContext)
+  const { networks } = footer
+
 
   return (
     <footer className="footer navbar-static-bottom">
@@ -22,7 +21,7 @@ const Footer = () => {
         <div className="social-links">
           {networks &&
             networks.map((network) => {
-              const { id, name, url } = network;
+              const { id, name, url } = network
               return (
                 <a
                   key={id}
@@ -33,21 +32,21 @@ const Footer = () => {
                 >
                   <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
                 </a>
-              );
+              )
             })}
         </div>
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
+            Bradley Bernard
           </a>
         </p>
 
-        {isEnabled && <GithubButtons />}
+
       </Container>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

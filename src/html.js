@@ -2,8 +2,8 @@
 /* eslint-disable react/no-danger */
 /* eslint-disable react/forbid-prop-types */
 /* eslint-disable jsx-a11y/html-has-lang */
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function HTML({
   htmlAttributes,
@@ -27,7 +27,7 @@ export default function HTML({
         {postBodyComponents}
       </body>
     </html>
-  );
+  )
 }
 
 HTML.propTypes = {
@@ -37,4 +37,4 @@ HTML.propTypes = {
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
   postBodyComponents: PropTypes.array,
-};
+}

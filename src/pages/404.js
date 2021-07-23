@@ -1,15 +1,16 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import { Helmet } from 'react-helmet';
-import { Container } from 'react-bootstrap';
-import Fade from 'react-reveal/Fade';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react'
+import { Link } from 'gatsby'
+import { Helmet } from 'react-helmet'
+import { Container } from 'react-bootstrap'
+import Fade from 'react-reveal/Fade'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-import { headData } from '../mock/data';
-import '../style/main.scss';
+import { headData } from '../mock/data'
+import '../style/main.scss'
 
+// eslint-disable-next-line react/display-name
 export default () => {
-  const { lang } = headData;
+  const { lang } = headData
 
   return (
     <>
@@ -39,5 +40,5 @@ export default () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}

@@ -1,12 +1,13 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import App from '../components/App';
-import { headData } from '../mock/data';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../style/main.scss';
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import App from '../components/App'
+import { headData } from '../mock/data'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../style/main.scss'
 
+// eslint-disable-next-line react/display-name
 export default () => {
-  const { title, lang, description } = headData;
+  const { title, lang, description } = headData
 
   return (
     <>
@@ -18,5 +19,5 @@ export default () => {
       </Helmet>
       <App />
     </>
-  );
-};
+  )
+}

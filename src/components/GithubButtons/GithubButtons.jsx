@@ -1,5 +1,5 @@
-import React from 'react';
-import GitHubButton from 'react-github-btn';
+import React from 'react'
+import GitHubButton from 'react-github-btn'
 
 const GithubButton = () => (
   <>
@@ -24,6 +24,6 @@ const GithubButton = () => (
       Star
     </GitHubButton>
   </>
-);
+)
 
-export default GithubButton;
+export default GithubButton
