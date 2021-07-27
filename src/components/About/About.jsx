@@ -27,7 +27,79 @@ const About = () => {
       <Container>
         <Title title="About Me" />
         <Row className="about-wrapper">
-          <Col md={{ span: 8, offset: 3 }}>
+          <Col md={6} sm={12}>
+            <Fade bottom duration={1000} delay={600} distance="30px">
+              <div className="about-wrapper__image">
+                <div className="devicon-div">
+                  <i className="devicon-javascript-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>JavaScript</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-bulma-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Bulma</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-npm-original-wordmark" style={{ fontSize: '4rem' }}></i>
+                  <span>Npm</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-bootstrap-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Bootstrap</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-css3-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Css3</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-django-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Django</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-python-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Python</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-react-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>React</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-github-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Github</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-git-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Git</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-heroku-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Heroku</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-html5-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>HTML5</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-materialui-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Material-UI</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-mongodb-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>MongoDB</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-nodejs-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Node.js</span>
+                </div>
+                <div className="devicon-div">
+                  <i className="devicon-postgresql-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>PostgreSQL</span>
+                </div>
+                
+              </div>
+            </Fade>
+          </Col>
+          {/* <Col md={{ span: 8, offset: 3 }}> */}
+          <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
@@ -56,6 +128,7 @@ const About = () => {
                     </a>
                   </span>
                 )}
+
               </div>
             </Fade>
           </Col>
