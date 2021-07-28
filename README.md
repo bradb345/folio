@@ -1,1 +1,1 @@
-You can view the site here (not live yet)
+You can view the site (here)[www.bradbernard.com]
