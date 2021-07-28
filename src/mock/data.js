@@ -65,6 +65,16 @@ export const projectsData = [
   }
 ]
 
+// EXPERIENCE DATA
+export const experienceData = [
+  {
+    id: nanoid(),
+    img: '',
+    title: '',
+    info: '',
+  }
+]
+
 // CONTACT DATA
 export const contactData = {
   cta: 'Get in contact with me here:',
