@@ -1,1 +1,1 @@
-You can view the site [here](www.bradbernard.com)
+You can view the site [here](http://www.bradbernard.com)
