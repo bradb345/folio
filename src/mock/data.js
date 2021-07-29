@@ -65,13 +65,25 @@ export const projectsData = [
   }
 ]
 
-// EXPERIENCE DATA
-export const experienceData = [
+// INTERESTS DATA
+export const interestsData = [
   {
     id: nanoid(),
-    img: '',
-    title: '',
-    info: '',
+    name: 'headphones',
+    title: ' Audiobooks ',
+    info: 'I have an obsession with audiobooks, specifically audiobooks about science, but a good fiction or biography is great too. It doesn\'t matter which branch of science either. You name it, I will consume it. I love learning and with audiobooks I can listen at double the speed which finishes the book faster and gets me to the next book quicker. It\'s the closest I\'ve come to “downloading” content to my brain.',
+  },
+  {
+    id: nanoid(),
+    name: 'music',
+    title: ' Audio Post Production ',
+    info: 'Recording and mixing sound for film and television has been a passion of mine ever since I was a teenager. Creating sounds of creatures that don’t exist or making a punch sound like it broke bones is one of my favorite ways to be creative while working on a film.  Before becoming a web developer, I used to work as an audio engineer in the film industry in London, now I do it just for fun.',
+  },
+  {
+    id: nanoid(),
+    name: 'code',
+    title: ' Coding ',
+    info: 'As a side project I plan to create a google chrome extension similar to the now extinct stumble upon.  I loved that chrome extension so much that I want to create it myself. At the click of a single button, it took you to different websites based on  your interests. Many hours of my life were occupied mindlessly clicking that button repeatedly.',
   }
 ]
 
