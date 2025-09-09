@@ -35,16 +35,16 @@ const About = () => {
                   <span>JavaScript</span>
                 </div>
                 <div className="devicon-div">
-                  <i className="devicon-bulma-plain" style={{ fontSize: '4rem' }}></i>
-                  <span>Bulma</span>
+                  <i className="devicon-nextjs-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Next.js</span>
                 </div>
                 <div className="devicon-div">
-                  <i className="devicon-npm-original-wordmark" style={{ fontSize: '4rem' }}></i>
-                  <span>Npm</span>
+                  <i className="devicon-amazonwebservices-plain-wordmark" style={{ fontSize: '4rem' }}></i>
+                  <span>AWS</span>
                 </div>
                 <div className="devicon-div">
-                  <i className="devicon-bootstrap-plain" style={{ fontSize: '4rem' }}></i>
-                  <span>Bootstrap</span>
+                  <i className="devicon-algolia-original" style={{ fontSize: '4rem' }}></i>
+                  <span>Algolia</span>
                 </div>
                 <div className="devicon-div">
                   <i className="devicon-css3-plain" style={{ fontSize: '4rem' }}></i>
@@ -67,8 +67,8 @@ const About = () => {
                   <span>Github</span>
                 </div>
                 <div className="devicon-div">
-                  <i className="devicon-git-plain" style={{ fontSize: '4rem' }}></i>
-                  <span>Git</span>
+                  <i className="devicon-cloudflare-plain" style={{ fontSize: '4rem' }}></i>
+                  <span>Cloudflare</span>
                 </div>
                 <div className="devicon-div">
                   <i className="devicon-heroku-plain" style={{ fontSize: '4rem' }}></i>

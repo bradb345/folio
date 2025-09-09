@@ -11,17 +11,17 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Bradley Bernard',
-  subtitle: 'Junior Web Developer',
+  subtitle: 'Mid Level Web Developer',
   cta: '',
 }
 
 // ABOUT DATA
 export const aboutData = {
   img: '',
-  paragraphOne: 'Hi, I\'m Brad and I\'m a Software Engineer. Born and raised in the cool and calm of the Caribbean, now living in the hustle and bustle of London.',
-  paragraphTwo: 'Having come from an Audio Engineering background, working on film and television sets, I\'m not your typical Software Engineer. While I absolutely love finding creative solutions to complex problems, I also value the people that I work with along the way. Collaboration is vital and presents endless opportunities to learn and grow.',
-  paragraphThree: 'Specializing in full-stack web development, I have managed, developed, deployed, and maintained several projects using a wide range of technologies. From basic HTML frameworks and SASS/SCSS pre-processors, to complex JavaScript and NPM libraries, I pride myself on my ability to learn and utilize new technologies.',
-  paragraphFour: 'Give me a problem and I will find a solution.',
+  paragraphOne: 'I’m Brad, a Software Engineer originally from the Caribbean and now based in London. My path into tech wasn’t a straight line — I started out in Audio Engineering, working on film and television sets. That experience taught me how to stay creative under pressure, adapt quickly, and collaborate with all kinds of people. Those lessons still shape the way I approach software today',
+  paragraphTwo: 'For the past four years, I’ve been one of the main developers at Scouty, often taking on the challenge of being the only engineer on the team. I built and shipped new features, kept the codebase healthy, and handled deployments end to end. One highlight was introducing equipment and vehicle rental to the platform, which helped Scouty expand its services and grow its revenue. That time taught me how to be resourceful, learn fast, and take ownership of projects from start to finish.',
+  paragraphThree: 'These days, I specialize in full-stack web development. I’ve worked across a wide mix of technologies — from HTML and SCSS through to modern JavaScript frameworks, with a particular focus on Next.js. I enjoy how it allows me to build fast, scalable, and user-friendly applications while keeping the developer experience smooth. What excites me most isn’t just the tools, though — it’s the challenge of solving real problems and seeing the impact of the work',
+  paragraphFour: 'At the heart of it, I love creating things that are useful, reliable, and meaningful — and I’m always up for the next challenge.',
   resume: '', // if no resume, the button will not show up
 }
 
@@ -29,12 +29,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'regfeed',
-    title: 'Project Expo',
-    info: 'My group was tasked with creating a web app utilizing a Django backend and a React Frontend. The app would showcase projects made by GA students. With links to their projects and contact info. I implemented search functionality using the array filter method. This allowed users to search projects or users based on their input into the search field.',
+    img: 'Rentr',
+    title: 'Rentr',
+    info: 'On the side, I’m building Rentr, a property management web app designed to simplify how landlords and tenants manage rentals. It’s also my sandbox for experimenting with new tech — I’ve been working with Next.js, Drizzle, Clerk, UploadThing, and a few other tools to push myself beyond my day-to-day stack and explore modern approaches to full-stack development.',
     info2: '',
-    url: 'https://project-expo.netlify.app/',
-    repo: 'https://github.com/bradb345/Client', // if no repo, the button will not show up
+    url: '',
+    repo: 'https://github.com/bradb345/t3test', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
