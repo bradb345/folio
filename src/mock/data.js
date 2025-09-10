@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: '',
-  paragraphOne: 'I’m Brad, a Software Engineer originally from the Caribbean and now based in London. My path into tech wasn’t a straight line — I started out in Audio Engineering, working on film and television sets. That experience taught me how to stay creative under pressure, adapt quickly, and collaborate with all kinds of people. Those lessons still shape the way I approach software today',
+  paragraphOne: 'I’m Brad, a Software Engineer originally from the Caribbean and now based in London. My path into tech wasn’t a straight line, I started out in Audio Engineering, working on film and television sets. That experience taught me how to stay creative under pressure, adapt quickly, and collaborate with all kinds of people. Those lessons still shape the way I approach software today',
   paragraphTwo: 'For the past four years, I’ve been one of the main developers at Scouty, often taking on the challenge of being the only engineer on the team. I built and shipped new features, kept the codebase healthy, and handled deployments end to end. One highlight was introducing equipment and vehicle rental to the platform, which helped Scouty expand its services and grow its revenue. That time taught me how to be resourceful, learn fast, and take ownership of projects from start to finish.',
-  paragraphThree: 'These days, I specialize in full-stack web development. I’ve worked across a wide mix of technologies — from HTML and SCSS through to modern JavaScript frameworks, with a particular focus on Next.js. I enjoy how it allows me to build fast, scalable, and user-friendly applications while keeping the developer experience smooth. What excites me most isn’t just the tools, though — it’s the challenge of solving real problems and seeing the impact of the work',
-  paragraphFour: 'At the heart of it, I love creating things that are useful, reliable, and meaningful — and I’m always up for the next challenge.',
+  paragraphThree: 'These days, I specialize in full-stack web development. I’ve worked across a wide mix of technologies from HTML and SCSS through to modern JavaScript frameworks, with a particular focus on Next.js. I enjoy how it allows me to build fast, scalable, and user-friendly applications while keeping the developer experience smooth. What excites me most isn’t just the tools, though, it’s the challenge of solving real problems and seeing the impact of the work',
+  paragraphFour: 'At the heart of it, I love creating things that are useful, reliable, and meaningful and I’m always up for the next challenge.',
   resume: '', // if no resume, the button will not show up
 }
 
@@ -38,21 +38,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'Reg',
-    title: 'Peek',
-    info: ' As a group, we decided to make a new social media platform similar to Facebook and Instagram. We created the backend of the app utilizing MongoDB, Express, and Mongoose. The frontend of the app utilized React for functionality and Bulma for CSS styling. I implemented status updates and post creation using axios for api requests to the custom build backend api.',
+    img: 'audiobook-player2',
+    title: 'Audiobook Player',
+    info: ' This audiobook app is a side project I started while teaching myself React Native. The app includes core playback controls and progress tracking, and while it’s still a work in progress, it’s been a great way for me to experiment with mobile development and refine my skills.',
     info2: '',
-    url: 'https://peek3.netlify.app/',
-    repo: 'https://github.com/bradb345/project-3-client', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'CharacterIndex',
-    title: 'Superheros',
-    info: 'We created a hero based search using React. On this site you could learn more about heroes and villains from many different universes. We utilized the superhero-api where we were able to make GET requests for the super hero data and filter through the response to display on the site.',
-    info2: '',
-    url: 'https://project2-sei55-heros.netlify.app/',
-    repo: 'https://github.com/bradb345/sei-project2-heros', // if no repo, the button will not show up
+    url: '',
+    repo: 'https://github.com/bradb345/React-Native-Project', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
